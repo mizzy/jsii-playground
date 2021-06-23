@@ -1,0 +1,38 @@
+{
+  "name": "jsii-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "jsii",
+    "build:watch": "jsii --watch",
+    "package": "jsii-pacmak"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizzy/jsii-playground.git"
+  },
+  "keywords": [],
+  "author": "Gosuke Miyashita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mizzy/jsii-playground/issues"
+  },
+  "homepage": "https://github.com/mizzy/jsii-playground#readme",
+  "stability": "experimental",
+  "types": "index.d.ts",
+  "jsii": {
+    "outdir": "dist",
+    "versionFormat": "full",
+    "targets": {
+      "python": {
+        "distName": "hello-jsii",
+        "module": "hello_jsii"
+      }
+    }
+  },
+  "devDependencies": {
+    "jsii": "^1.30.0",
+    "jsii-pacmak": "^1.30.0"
+  }
+}

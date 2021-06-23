@@ -1,0 +1,120 @@
+{
+  "author": {
+    "name": "Gosuke Miyashita",
+    "roles": [
+      "author"
+    ]
+  },
+  "description": "",
+  "docs": {
+    "stability": "experimental"
+  },
+  "homepage": "https://github.com/mizzy/jsii-playground#readme",
+  "jsiiVersion": "1.30.0 (build adae23f)",
+  "keywords": [],
+  "license": "ISC",
+  "metadata": {
+    "jsii": {
+      "pacmak": {
+        "hasDefaultInterfaces": true
+      }
+    }
+  },
+  "name": "jsii-playground",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizzy/jsii-playground.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "js": {
+      "npm": "jsii-playground"
+    },
+    "python": {
+      "distName": "hello-jsii",
+      "module": "hello_jsii"
+    }
+  },
+  "types": {
+    "jsii-playground.Greeter": {
+      "assembly": "jsii-playground",
+      "docs": {
+        "stability": "experimental"
+      },
+      "fqn": "jsii-playground.Greeter",
+      "initializer": {
+        "docs": {
+          "stability": "experimental"
+        },
+        "locationInModule": {
+          "filename": "index.ts",
+          "line": 8
+        },
+        "parameters": [
+          {
+            "name": "props",
+            "type": {
+              "fqn": "jsii-playground.GreeterProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "index.ts",
+        "line": 5
+      },
+      "methods": [
+        {
+          "docs": {
+            "stability": "experimental"
+          },
+          "locationInModule": {
+            "filename": "index.ts",
+            "line": 12
+          },
+          "name": "greet",
+          "returns": {
+            "type": {
+              "primitive": "string"
+            }
+          }
+        }
+      ],
+      "name": "Greeter"
+    },
+    "jsii-playground.GreeterProps": {
+      "assembly": "jsii-playground",
+      "datatype": true,
+      "docs": {
+        "stability": "experimental"
+      },
+      "fqn": "jsii-playground.GreeterProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "index.ts",
+        "line": 1
+      },
+      "name": "GreeterProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "experimental"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "index.ts",
+            "line": 2
+          },
+          "name": "greetee",
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ]
+    }
+  },
+  "version": "1.0.0",
+  "fingerprint": "tfbO+nkYR1mPyvz8WYluhIhrg5JM7DjgbpphKqVVwvk="
+}
